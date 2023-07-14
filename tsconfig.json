@@ -1,6 +1,6 @@
 {
   // https://github.com/agilgur5/tsconfig
-  "extends": "@agilgur5/tsconfig/src/tsconfig.library.json",
+  "extends": "@agilgur5/tsconfig/library",
   // exclude node_modules (the default), dist dir, coverage dir, and example for now
   "exclude": ["node_modules/", "dist/", "coverage/", "example/"],
   // all TS files in the src/ dir
